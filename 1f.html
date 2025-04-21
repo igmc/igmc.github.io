@@ -2,56 +2,123 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Calendario de clase</title>
+  <title>Calendario de clase - GII 1F</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2em;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'JetBrains Mono', monospace;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #161b22;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    h1, h2 {
+      color: #58a6ff;
+      margin-top: 0;
+    }
+
+    pre {
+      background-color: #0d1117;
+      border-left: 4px solid #58a6ff;
+      padding: 1em;
+      overflow-x: auto;
+      font-size: 0.9em;
+      color: #c9d1d9;
+      word-break: break-word;
+    }
+
+    code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      border-bottom: 1px dashed #58a6ff;
+    }
+
+    a:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    i {
+      color: #8b949e;
+      font-style: italic;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1em;
+      }
+
+      main {
+        padding: 1.5em;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>GII - Grupo 1F</h1>
+  <main>
+    <h1>GII - Grupo 1F</h1>
+    <h2>Calendario de clase</h2>
 
-  <h2>Calendario de clase</h2>
-  <p>
-    En este calendario se recogen cambios de horas lectivas, festivos, entregas y exámenes.
-    No se muestran las horas de clase ordinarias. La única excepción es la asignatura IES,
-    ya que los días de teoría no siguen un patrón semanal. <br>
-    El calendario se actualiza automáticamente. Solo tienes seguir este proceso la primera vez.
-  </p>
+    <p>
+      En este calendario se recogen cambios de horas lectivas, festivos, entregas y exámenes.
+      No se muestran las horas de clase ordinarias. La única excepción es la asignatura IES,
+      ya que los días de teoría no siguen un patrón semanal.
+    </p>
+    <p>
+      El calendario se actualiza automáticamente. Solo tienes seguir este proceso la primera vez.
+    </p>
 
-  <p>
-    Usa el siguiente enlace para añadir a tu calendario:
-    <pre><code>
-      webcal://p65-caldav.icloud.com/published/2/MTEyNTU0MDE0MTYxMTI1NTrVfFsQjFvCtP8V8xzl_R50s268UX8HdpXfQ96x-6AIzt44LUY3k84udEcS59K6P4m4IhK-y8uKG_5asWLyYc8
-    </code></pre>
-  </p>
+    <p>Usa el siguiente enlace para añadir a tu calendario:</p>
 
-  <p>
-    <i>
-      Nota: Recomiendo desactivar alertas y recordatorios al importar el calendario. <br>
-      Recomiendo activar, si tu aplicación de calendario lo permite, la sincronización push.
-    </i>
-  </p>
+    <pre><code>webcal://p65-caldav.icloud.com/published/2/MTEyNTU0MDE0MTYxMTI1NTrVfFsQjFvCtP8V8xzl_R50s268UX8HdpXfQ96x-6AIzt44LUY3k84udEcS59K6P4m4IhK-y8uKG_5asWLyYc8</code></pre>
 
-  <p>
-    <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl">
-      Para añadir en Google, copia el enlace y pégalo en esta página.
-    </a>
-  </p>
-  
-  <p>
-    <a href="https://support.apple.com/es-es/guide/calendar/icl1022/mac">
-      Para añadir en Apple Calendar, sigue estos pasos.
-    </a>
-  </p>
+    <p><i>
+      Nota: Recomiendo desactivar alertas y recordatorios al importar el calendario.<br>
+      También es recomendable activar, si tu aplicación de calendario lo permite, la sincronización push.
+    </i></p>
 
-  <p>
-    <a href="https://p65-caldav.icloud.com/published/2/MTEyNTU0MDE0MTYxMTI1NTrVfFsQjFvCtP8V8xzl_R50s268UX8HdpXfQ96x-6AIzt44LUY3k84udEcS59K6P4m4IhK-y8uKG_5asWLyYc8">
-      Para añadir desde móvil, haz clic aquí.
-    </a>
-  </p>
+    <ul>
+      <li>
+        <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank">
+          Añadir en Google Calendar (pégalo manualmente).
+        </a>
+      </li>
+      <li>
+        <a href="https://support.apple.com/es-es/guide/calendar/icl1022/mac" target="_blank">
+          Añadir en Apple Calendar (guía oficial).
+        </a>
+      </li>
+      <li>
+        <a href="https://p65-caldav.icloud.com/published/2/MTEyNTU0MDE0MTYxMTI1NTrVfFsQjFvCtP8V8xzl_R50s268UX8HdpXfQ96x-6AIzt44LUY3k84udEcS59K6P4m4IhK-y8uKG_5asWLyYc8" target="_blank">
+          Añadir desde móvil (enlace directo).
+        </a>
+      </li>
+    </ul>
 
-  <p>
-    Esta página y el calendario se encuentran en una fase muy temprana. Con el tiempo, iré añadiendo más información y más datos. <br>
-    (El calendario incluye eventos hasta el 2 de mayo. Actualizado por última vez el 9 de abril).
-  </p>
-  <br><br><br>
-  <p>(así es, no sé escribir HTML, ¿cómo lo supiste?)</p>
+    <p>
+      Esta página y el calendario están en fase temprana. Con el tiempo iré añadiendo más información y funcionalidades.<br>
+      <strong>(Incluye eventos hasta el 2 de mayo. Última actualización: 9 de abril.)</strong>
+    </p>
+  </main>
 </body>
 </html>
